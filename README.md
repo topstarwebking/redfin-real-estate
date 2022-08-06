@@ -1,426 +1,165 @@
-Contribution: 2018-08-13 20:00
+# Makazi
 
-Contribution: 2018-08-13 20:01
+Makazi is a Real Estate web application that allows Agents to manage properties. It also allows Users to access, and browse through properties as they make decisions about which to buy. Watch a live demo on [Youtube Video](https://youtu.be/LUx2aZwh64I).
 
-Contribution: 2018-08-13 20:02
+### By Tiberius Mairura, 31/07/2022
 
-Contribution: 2018-08-14 20:00
+## Landing Page
 
-Contribution: 2018-08-14 20:01
+![image](./src/assets/images/listings-home.png)
 
-Contribution: 2018-08-14 20:02
 
-Contribution: 2018-08-14 20:03
+## Signup Page
 
-Contribution: 2018-08-16 20:00
+![image](./src/assets/images/signup.png)
 
-Contribution: 2018-08-17 20:00
+## Login Page
 
-Contribution: 2018-08-17 20:01
+![image](./src/assets/images/login.png)
 
-Contribution: 2018-08-18 20:00
+## Listings Page
 
-Contribution: 2018-08-19 20:00
+![image](./src/assets/images/listings.png)
 
-Contribution: 2018-08-19 20:01
+## Listings Details Page
 
-Contribution: 2018-08-19 20:02
+![image](./src/assets/images/listing-details.png)
 
-Contribution: 2018-08-20 20:00
+## Listings Update Page
 
-Contribution: 2018-08-20 20:01
+![image](./src/assets/images/listing-update.png)
 
-Contribution: 2018-08-22 20:00
+## 
 
-Contribution: 2018-08-22 20:01
 
-Contribution: 2018-08-23 20:00
+Demo on youtube
 
-Contribution: 2018-08-25 20:00
+Watch on [Youtube Video](https://youtu.be/LUx2aZwh64I)
 
-Contribution: 2018-08-25 20:01
+## Table of Content
 
-Contribution: 2018-08-25 20:02
+- [Makazi](#makazi)
+    - [By Tiberius Mairura, 31/07/2022](#by-tiberius-mairura-31072022)
+  - [Landing Page](#landing-page)
+  - [Signup Page](#signup-page)
+  - [Login Page](#login-page)
+  - [Listings Page](#listings-page)
+  - [Listings Details Page](#listings-details-page)
+  - [Listings Update Page](#listings-update-page)
+  - [Live Demo on](#live-demo-on)
+  - [Table of Content](#table-of-content)
+  - [Description](#description)
+  - [Features](#features)
+    - [Requirements](#requirements)
+    - [Installation Process](#installation-process)
+    - [Live Link](#live-link)
+    - [Technology  Used](#technology--used)
+  - [Known Bugs](#known-bugs)
+  - [Licence](#licence)
+  - [Author's Details](#authors-details)
 
-Contribution: 2018-08-26 20:00
+## Description
 
-Contribution: 2018-08-27 20:00
+****
+Makazi allows real estate agents to manage their listings. The agents can post, list, edit, and delete properties. Users can also access property information, browse through properties and make purchase of properties of their choice. Users can also make personal accounts to personalize their experiences.
+****
 
-Contribution: 2018-08-29 20:00
+[Go Back to the top](#Makazi)
 
-Contribution: 2018-08-29 20:01
+## Features
 
-Contribution: 2018-08-29 20:02
+As an Agent you should be able to:
 
-Contribution: 2018-08-29 20:03
+1. `Register`  an agent account
+2. `Upload` new listing
+3. `Update` listings
+4. `Delete` listings
 
-Contribution: 2018-08-30 20:00
+As User you should be able to:
 
-Contribution: 2018-08-30 20:01
+1. `Register`  a user account
+2. `View`  listings
+3. `View` agent profiles and contact information
 
-Contribution: 2018-08-30 20:02
+[Go Back to the top](#Makazi)
 
-Contribution: 2018-09-01 20:00
+### Requirements
 
-Contribution: 2018-09-01 20:01
+- Access to  a computer, mobile phone or any other garget
+- Internet access
 
-Contribution: 2018-09-01 20:02
+### Installation Process
 
-Contribution: 2018-09-02 20:00
+****
 
-Contribution: 2018-09-02 20:01
+- Clone to this repo by running the command : `git clone https://github.com/hermitex/makazi.git`
+- Unzip the downloaded files in a folder of choice.
+- Open the folder with your favorite CLI tool.
+- Run `npm install` on your terminal from inside the root folder of the project
+- Run `node server.js` on your terminal from inside the root folder of the project to run the server
+- The server should run on `http://localhost:3000` by default
+- If the port is busy, kindly feel free to change the port inside the server.js file
+- Once the server is up and running, visit the link  `http://localhost:3000` to access the application
+- You can also check out the app's API at [Makazi API](https://github.com/hermitex/makazipopote-api)
+  
+ ****
+[Go Back to the top](#Makazi)
 
-Contribution: 2018-09-02 20:02
+### Live Link
 
-Contribution: 2018-09-03 20:00
+- [Makazi popote live link](https://makaziproperties.herokuapp.com/)
+  
+****
 
-Contribution: 2018-09-03 20:01
+### Technology  Used
 
-Contribution: 2018-09-05 20:00
+- HTML -to develop the structure off the page
 
-Contribution: 2018-09-07 20:00
+- CSS - to style the User Interface
+- Java (Spring Boot) - To build a RESTful API
+- ReactJS - Building component based UI
+  
 
-Contribution: 2018-09-08 20:00
+[Go Back to the top](#Makazi)
 
-Contribution: 2018-09-08 20:01
+****
 
-Contribution: 2018-09-10 20:00
+## Known Bugs
 
-Contribution: 2018-09-10 20:01
+- N/A
 
-Contribution: 2018-09-10 20:02
+****
 
-Contribution: 2018-09-10 20:03
+## Licence
 
-Contribution: 2018-09-11 20:00
+MIT License
+Copyright (c) [2022] [Tiberius Mairura]
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-Contribution: 2018-09-11 20:01
+[Go Back to the top](#Makazi)
+****
 
-Contribution: 2018-09-11 20:02
+## Author's Details
 
-Contribution: 2018-09-12 20:00
+Feel free to reach out via:
 
-Contribution: 2018-09-12 20:01
+- StackOverflow Profile - [Tiberius Mairura](https://stackoverflow.com/users/11869442/tiberius)
+- Linked - [Tiberius Mairura](https://www.linkedin.com/in/tiberius-mairura/)
+- Dev.to - [Tiberius Mairura](https://dev.to/hermitex)
 
-Contribution: 2018-09-13 20:00
-
-Contribution: 2018-09-13 20:01
-
-Contribution: 2018-09-13 20:02
-
-Contribution: 2018-09-15 20:00
-
-Contribution: 2018-09-15 20:01
-
-Contribution: 2018-09-15 20:02
-
-Contribution: 2018-09-17 20:00
-
-Contribution: 2018-09-17 20:01
-
-Contribution: 2018-09-17 20:02
-
-Contribution: 2018-09-17 20:03
-
-Contribution: 2018-09-18 20:00
-
-Contribution: 2018-09-19 20:00
-
-Contribution: 2018-09-19 20:01
-
-Contribution: 2018-09-19 20:02
-
-Contribution: 2018-09-21 20:00
-
-Contribution: 2018-09-21 20:01
-
-Contribution: 2018-09-22 20:00
-
-Contribution: 2018-09-22 20:01
-
-Contribution: 2018-09-22 20:02
-
-Contribution: 2018-09-24 20:00
-
-Contribution: 2018-09-26 20:00
-
-Contribution: 2018-09-26 20:01
-
-Contribution: 2018-09-26 20:02
-
-Contribution: 2018-09-26 20:03
-
-Contribution: 2018-09-27 20:00
-
-Contribution: 2018-09-27 20:01
-
-Contribution: 2018-09-28 20:00
-
-Contribution: 2018-09-28 20:01
-
-Contribution: 2018-09-28 20:02
-
-Contribution: 2018-09-29 20:00
-
-Contribution: 2018-09-29 20:01
-
-Contribution: 2018-09-29 20:02
-
-Contribution: 2018-09-29 20:03
-
-Contribution: 2018-09-30 20:00
-
-Contribution: 2018-09-30 20:01
-
-Contribution: 2018-09-30 20:02
-
-Contribution: 2018-10-03 20:00
-
-Contribution: 2018-10-03 20:01
-
-Contribution: 2018-10-03 20:02
-
-Contribution: 2018-10-07 20:00
-
-Contribution: 2018-10-07 20:01
-
-Contribution: 2018-10-07 20:02
-
-Contribution: 2018-10-08 20:00
-
-Contribution: 2018-10-08 20:01
-
-Contribution: 2018-10-08 20:02
-
-Contribution: 2018-10-09 20:00
-
-Contribution: 2018-10-11 20:00
-
-Contribution: 2018-10-13 20:00
-
-Contribution: 2018-10-15 20:00
-
-Contribution: 2018-10-15 20:01
-
-Contribution: 2018-10-15 20:02
-
-Contribution: 2018-10-15 20:03
-
-Contribution: 2018-10-17 20:00
-
-Contribution: 2018-10-17 20:01
-
-Contribution: 2018-10-18 20:00
-
-Contribution: 2018-10-18 20:01
-
-Contribution: 2018-10-19 20:00
-
-Contribution: 2018-10-20 20:00
-
-Contribution: 2018-10-20 20:01
-
-Contribution: 2018-10-23 20:00
-
-Contribution: 2018-10-23 20:01
-
-Contribution: 2018-10-23 20:02
-
-Contribution: 2018-10-23 20:03
-
-Contribution: 2018-10-24 20:00
-
-Contribution: 2018-10-24 20:01
-
-Contribution: 2018-10-26 20:00
-
-Contribution: 2018-10-26 20:01
-
-Contribution: 2018-10-26 20:02
-
-Contribution: 2018-10-27 20:00
-
-Contribution: 2018-10-27 20:01
-
-Contribution: 2018-10-27 20:02
-
-Contribution: 2018-10-28 20:00
-
-Contribution: 2018-10-29 20:00
-
-Contribution: 2018-10-30 20:00
-
-Contribution: 2018-10-31 20:00
-
-Contribution: 2018-10-31 20:01
-
-Contribution: 2018-10-31 20:02
-
-Contribution: 2018-10-31 20:03
-
-Contribution: 2018-11-01 20:00
-
-Contribution: 2018-11-01 20:01
-
-Contribution: 2018-11-03 20:00
-
-Contribution: 2018-11-03 20:01
-
-Contribution: 2018-11-03 20:02
-
-Contribution: 2018-11-03 20:03
-
-Contribution: 2018-11-04 20:00
-
-Contribution: 2018-11-05 20:00
-
-Contribution: 2018-11-06 20:00
-
-Contribution: 2018-11-07 20:00
-
-Contribution: 2018-11-07 20:01
-
-Contribution: 2018-11-07 20:02
-
-Contribution: 2018-11-07 20:03
-
-Contribution: 2018-11-08 20:00
-
-Contribution: 2018-11-08 20:01
-
-Contribution: 2018-11-08 20:02
-
-Contribution: 2018-11-08 20:03
-
-Contribution: 2018-11-10 20:00
-
-Contribution: 2018-11-11 20:00
-
-Contribution: 2018-11-11 20:01
-
-Contribution: 2018-11-11 20:02
-
-Contribution: 2018-11-12 20:00
-
-Contribution: 2018-11-12 20:01
-
-Contribution: 2018-11-12 20:02
-
-Contribution: 2018-11-12 20:03
-
-Contribution: 2018-11-13 20:00
-
-Contribution: 2018-11-14 20:00
-
-Contribution: 2018-11-15 20:00
-
-Contribution: 2018-11-15 20:01
-
-Contribution: 2018-11-16 20:00
-
-Contribution: 2018-11-16 20:01
-
-Contribution: 2018-11-16 20:02
-
-Contribution: 2018-11-16 20:03
-
-Contribution: 2018-11-18 20:00
-
-Contribution: 2018-11-19 20:00
-
-Contribution: 2018-11-19 20:01
-
-Contribution: 2018-11-19 20:02
-
-Contribution: 2018-11-20 20:00
-
-Contribution: 2018-11-21 20:00
-
-Contribution: 2018-11-21 20:01
-
-Contribution: 2018-11-21 20:02
-
-Contribution: 2018-11-21 20:03
-
-Contribution: 2018-11-22 20:00
-
-Contribution: 2018-11-22 20:01
-
-Contribution: 2018-11-23 20:00
-
-Contribution: 2018-11-23 20:01
-
-Contribution: 2018-11-23 20:02
-
-Contribution: 2018-11-24 20:00
-
-Contribution: 2018-11-24 20:01
-
-Contribution: 2018-11-24 20:02
-
-Contribution: 2018-11-29 20:00
-
-Contribution: 2018-11-29 20:01
-
-Contribution: 2018-11-29 20:02
-
-Contribution: 2018-12-01 20:00
-
-Contribution: 2018-12-01 20:01
-
-Contribution: 2018-12-02 20:00
-
-Contribution: 2018-12-02 20:01
-
-Contribution: 2018-12-02 20:02
-
-Contribution: 2018-12-02 20:03
-
-Contribution: 2018-12-03 20:00
-
-Contribution: 2018-12-03 20:01
-
-Contribution: 2018-12-03 20:02
-
-Contribution: 2018-12-04 20:00
-
-Contribution: 2018-12-04 20:01
-
-Contribution: 2018-12-04 20:02
-
-Contribution: 2018-12-07 20:00
-
-Contribution: 2018-12-09 20:00
-
-Contribution: 2018-12-10 20:00
-
-Contribution: 2018-12-10 20:01
-
-Contribution: 2018-12-10 20:02
-
-Contribution: 2018-12-10 20:03
-
-Contribution: 2018-12-12 20:00
-
-Contribution: 2018-12-13 20:00
-
-Contribution: 2018-12-13 20:01
-
-Contribution: 2018-12-13 20:02
-
-Contribution: 2018-12-14 20:00
-
-Contribution: 2018-12-14 20:01
-
-Contribution: 2018-12-14 20:02
-
-Contribution: 2018-12-15 20:00
-
-Contribution: 2018-12-15 20:01
-
-Contribution: 2018-12-18 20:00
-
-Contribution: 2018-12-19 20:00
-
-Contribution: 2018-12-19 20:01
-
+[Go Back to the top](#Makazi)
+****

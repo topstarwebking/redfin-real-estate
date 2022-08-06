@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+i{
+  color: orange;
+  margin-right: 0.2rem;
+  cursor: "pointer" !important;
+}
+
+button{
+  background-color: #4a90e2 !important;
+}
+
+nav{
+  background-color: #449043 !important;
+}
+
+label{
+  color: orange !important;
+ 
+}
+
+img:hover{
+  opacity: 0.85 !important;
+  cursor: pointer !important;
+}
