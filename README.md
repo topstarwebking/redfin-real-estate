@@ -1,7 +1,7 @@
 # Redfin
 
 Makazi is a Real Estate web application that allows Agents to manage properties. It also allows Users to access, and browse through properties as they make decisions about which to buy.
-### By Tiberius Mairura, 31/07/2022
+### By Louis Egan, 31/10/2018
 
 ## Landing Page
 
